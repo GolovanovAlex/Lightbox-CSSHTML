@@ -3,3 +3,28 @@
   margin: 0;
   box-sizing: border-box;
 }
+.itembig,
+.itembig img {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.itembig {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.itembig img {
+  border: 2px solid #000;
+}
+a.itembig:target {
+  display: block;
+  cursor: zoom-out;
+}
+a {
+  cursor: zoom-in;
+}
